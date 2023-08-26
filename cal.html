@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+    </head>
+    <link rel="stylesheet" href="Calculator.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <body>
+        <div class="container">
+          
+            <div class="calculator">
+                <h1>Calculator</h1>
+                <input type="text" placeholder="0" id="OUTPUT">
+                <button onclick="Ac()" class="clear">AC</button>
+                <button onclick="del()" class="clear">DEL</button>
+                <button onclick="display('%')" class="operator">%</button>
+                <button onclick="display('/')" class="operator">/</button>
+                <button onclick="display('7')" class="Numberss">7</button>
+                <button onclick="display('8')" class="Numberss">8</button>
+                <button onclick="display('9')" class="Numberss">9</button>
+                <button onclick="display('*')" class="operator">*</button>
+                <button onclick="display('4')" class="Numberss">4</button>
+                <button onclick="display('5')" class="Numberss">5</button>
+                <button onclick="display('6')" class="Numberss">6</button>
+                <button onclick="display('-')" class="operator">-</button>
+                <button onclick="display('1')" class="Numberss">1</button>
+                <button onclick="display('2')" class="Numberss">2</button>
+                <button onclick="display('3')" class="Numberss">3</button>
+                <button onclick="display('+')" class="operator">+</button>
+                <button onclick="display('.')" class="dot">.</button>
+                <button onclick="display('0')" class="Numberss">0</button>
+                <button onclick="Equals()" class="equal">=</button>
+            </div>
+        </div>
+        <script src="Cal.JS"></script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.container{
+    background-color:rgb(150, 185, 180);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.calculator{
+    background-color: #858a8c;
+    padding: 15px;
+    border-radius: 15px;
+   box-shadow: 20px 20px 20px hsl(0, 2%, 83%);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+    border: 1px solid rgb(114, 78, 160);
+}
+.calculator h1{
+    font-family: 'DM Serif Display', serif;
+    padding-left: 20px;
+    font-size: 50px;
+}
+input{
+    grid-column: span 4;
+    height: 60px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70,70,70);
+    font-size: 35px;
+    text-align: end;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,.16);
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.clear{
+    background-color: rgb(247, 131, 131);
+}
+.clear:active{
+    background-color: rgb(188, 28, 11);
+}
+.operator{
+    background-color: rgb(243, 245, 177);
+}
+.operator:active{
+    background-color: rgb(203, 209, 17);
+}
+.Numberss{
+    background-color: rgb(205, 185, 209);
+}
+.Numberss:active{
+    background-color: azure;
+}
+.dot{
+    background-color:#ffffff;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.dot:active{
+    font-size: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(159, 166, 220);
+}
+.equal{
+    width: 115px;
+    border-radius: 30px;
+    background-color:coral
+}
+.equal:active{
+    width: 115px;
+    border-radius: 30px;
+    background-color:rgb(38, 201, 68)
+}
